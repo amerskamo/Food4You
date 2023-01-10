@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+.container{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container .row{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.pozadina {
+  background-image: url(img/bg1.gif);
+  background-size: cover;
+  max-width: 100%;
+  padding: 30px 55px;
+}
+.left-side {
+  padding: 55px;
+  margin-top: 65px;
+  position: relative;
+}
+.right-side {
+  margin: 30px auto;
+  position: relative;
+}
+@media (max-width:767px){
+  .right-side{
+    position: initial;
+  }
+}
+.logo {
+  width: 250px;
+  height: 62px;
+  display: inline-block;
+}
+.delivery {
+  width: 245px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  right: 55px;
+}
+@media (max-width:625px){
+  .logo, .delivery{
+    width: 40%;
+    height: 40px;
+  }
+}
+.navBar a {
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+}
+.navBar a:hover {
+  background-color: black;
+  color: #ffe001;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+@media (max-width: 767px){
+  .navBar{
+    position: absolute;
+    top: 110px;
+  }
+}
+.left-side .c1 {
+  text-align: center;
+  border-bottom: 1px dotted black;
+}
+.left-side .c2 {
+  text-align: center;
+}
+.hungry {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.left-side h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 70px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+@media (max-width:325px){
+  .left-side h1 {
+    text-align: center;
+    margin: auto;
+    margin-left: -55px;
+  }
+}
+.left-side h4 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.left-side p {
+  font-family: "Fredericka the Great", cursive;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.left-side .action {
+  font-size: 50px;
+  padding-left: 10px;
+}
+@media (max-width:425px){
+  .left-side button{
+    position: relative;
+    z-index: 1;
+  }
+}
+.left-side button {
+  padding: 5px 15px;
+  display: block;
+  margin: auto;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.left-side button:hover {
+  background-color: black;
+  color: #ffe001;
+  border: 0;
+  transition: 0.5s;
+}
+.right-side .dish {
+  padding-top: 50px;
+  height: 565px;
+  max-width: 100%;
+}
+@media (max-width:768px){
+  .right-side .container{
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (max-width:1000px){
+  .right-side .container .dish{
+    text-align: center;
+    height: 450px;
+  }
+}
+@media (max-width:768px){
+  .right-side .container .dish{
+    text-align: center;
+    height: 565px;
+  }
+}
+@media (max-width:600px){
+  .right-side .container .dish{
+    text-align: center;
+    height: 450px;
+  }
+}
+@media (max-width:450px){
+  .right-side .container .dish{
+    text-align: center;
+    height: 350px;
+  }
+}
+@media (max-width:374px){
+  .right-side .container .dish{
+    text-align: center;
+    height: 300px;
+  }
+}
+.leaf1 {
+  position: absolute;
+  height: 80px;
+  top: 0px;
+}
+@media (max-width:624px){
+  .leaf1 {
+    display: none;
+  }
+}
+.tomato {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+}
+.pasta {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 80px;
+  left: -50px;
+}
+@media (max-width: 768px){
+  .pasta, .leaf2{
+    display: none;
+  }
+}
+.leaf2 {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+}
+.spagete {
+  position: absolute;
+  bottom: -280px;
+  left: -150px;
+}
+.c2 h1 {
+  margin: auto;
+  text-align: center;
+  font-family: "Fredericka the Great", cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 90px;
+}
+.c{
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+.c2 p {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+.c2 .row img {
+  display: inline-block;
+  width: 100%;
+}
+@media (max-width:767px){
+  .c2 .row img {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (max-width:767px){
+  .c2 .row .col-md-4 {
+    margin: auto;
+    text-align: center;
+  }
+}
+.c2 .col-md-4 {
+  padding: 30px;
+}
+.dishes{
+  position: relative;
+}
+.dishes h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-top: 40px;
+}
+.dishes p {
+  font-family: sans-serif;
+}
+.dishes button {
+  padding: 10px 20px;
+  display: block;
+  margin: auto;
+  background-color: #ffe001;
+  border: 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+.dishes button:hover {
+  background-color: black;
+  color: #ffe001;
+  transition: 0.5s;
+}
+.upComing {
+  margin-top: 10px !important;
+}
+.discover {
+  margin-top: 50px;
+}
+.slider {
+  max-width: 100%;
+  text-align: center;
+  padding: 0;
+  height: 390px;
+}
+@media (max-width:767px){
+  .slider{
+    height: 1260px;
+  }
+}
+@media (max-width:470px){
+  .slider{
+    height: 960px;
+  }
+}
+.slider .row{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+}
+@media (max-width: 767px){
+  .slider .row .col-md-4{
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 767px){
+  .slider .row .col-md-4 img{
+    height: 400px;
+  }
+  .slider .row .col-md-4 img:hover{
+    height: 420px;
+  }
+}
+@media (max-width:470px){
+  .slider .row .col-md-4 img {
+    height: 300px !important;
+  }
+}
+ .slider .row img{
+    width: 100%;
+    padding: 0;
+    height: 300px;
+    padding: 0 5px;
+ }
+ .slider .row img:hover{
+  height: 320px;
+  z-index: 1000;
+  margin-top: -10px;
+  padding: 0;
+  transition: 0.3s;
+ }
+ .slider .col-md-4{
+    padding: 0;
+    position: relative;
+ }
+ .slider .btns{
+    margin: auto;
+ }
+ .slider .btns button {
+    width: 50px;
+    height: 50px;
+    color: #d5d6d5;
+    margin: 20px 5px;
+    display: inline-block;
+    padding: 0;
+    border-radius: 50%;
+    border: 0;
+ }
+ .reservation{
+    margin: 50px 0;
+    text-align: center;
+ }
+ .reservation table{
+    margin: auto;
+ }
+ .reservation input{
+    width: 380px;
+    height: 64px;
+    margin: 10px;
+    padding: 5px 10px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+
+ }
+ @media (max-width: 800px){
+  .reservation td{
+    display: block;
+  }
+}
+@media (max-width: 400px){
+  .reservation input, .reservation form button{
+    width: 100% !important;
+    margin: 5px auto !important;
+  }
+}
+ .reservation form button{
+    width: 380px;
+    height: 64px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    border: 0;
+    background-color: #ffe001;
+    border-radius: 5px;
+    margin: 10px;
+ }
+ .reservation form button:hover{
+    background-color: black;
+    color: #ffe001;
+    transition: 0.5s;
+ }
+ .reservation h1{
+    font-family: "Fredericka the Great", cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 30px;
+ }
+ .reservation h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+ }
+footer{
+    background-image: url(img/footer.gif);
+    background-size: cover;
+}
+footer img {
+    width: 250px;
+    height: 60px;
+}
+footer .container{
+    padding: 50px;
+    padding-bottom: 20px;
+}
+footer p{
+    padding-top: 60px;
+    text-align: left;
+    color: white;
+}
+footer .copyright{
+    margin-top: 100px;
+}
+footer .container .right{
+    text-align: center !important;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+footer i {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 50px;
+    color: #ffe001;
+}
+@media (max-width:380px){
+  footer .right p {
+    display: inline;
+    padding: 0;
+  }
+}
+footer .right p{
+    padding-left: 50px;
+}
+footer .right span i{
+    padding-top: 84px;
+    color: white;
+    margin: 5px;
+}
+
+.try-today .left{
+    background-image: url(img/popular_pasta.gif);
+    background-size: cover;
+    height: 420px;
+    padding: 40px;
+}
+.try-today .right{
+    padding: 0;
+    padding-left: 20px;
+}
+.try-today h3{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+.try-today h4{
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.try-today .p1 {
+    background-image: url(img/more_fun.gif);
+    background-size: cover;
+    height: 190px;
+    padding: 40px;
+}
+ @media (max-width: 767px){
+  .try-today .right{
+    margin-top: 40px;
+    margin-left: 0px;
+    padding-left: 0;
+  }
+} 
+.try-today .p2 {
+    background-image: url(img/chili.gif);
+    background-size: cover;
+    height: 190px;
+    margin-top: 40px;
+    padding: 40px;
+}
+.bg2{
+  position: absolute;
+  top: 270px;
+  z-index: -1;
+  width: 100%;
+}
+@media (max-width: 768px){
+  .bg2{
+    display: none;
+  }
+}
