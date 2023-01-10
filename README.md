@@ -1,2 +1,2 @@
 # Food4You
-One of my first projects
+I started web development studying recently and this is  one of my very first projects
